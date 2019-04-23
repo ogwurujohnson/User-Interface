@@ -60,7 +60,121 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
 }
 
 /* Your code starts here! */
+
+header {
+	margin: auto;
+	padding-top: 30px;
+	padding-left: 20%;
+	width: 100%;
+	height: 10%;
+	border: 1px solid black;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 15px;
+}
+
+header .logo {
+	display: inline-block;
+	width: 50%;
+	padding-left: 20%;
+}
+
+.main-section {
+	margin: auto;
+}
+
+.introduction-section {
+	margin: 0 auto;
+}
+
+.introduction-section .caption {
+	display: inline-block;
+	width: 50%;
+	font-weight: 400px;
+	padding-left: 250px;
+	padding-top: 50px;
+}
+
+.introduction-section .caption h1{
+	font-size: 100px;
+	text-align: center;
+}
+
+ .introduction-section .caption-image img{
+	width: 65%;
+} 
+
+.introduction-section .caption-image {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	padding-top: 40px;
+}
+
+.introduction-section .caption button {
+	border: 1px solid black;
+	margin-left: 200px;
+	padding: 10px;
+}
+
+.top-section {
+	margin-top: 70px;
+	margin-left: 20%;
+	margin-right: 10%;
+	padding-top:30px;
+	padding-right:10px;
+	border-top: 1px solid black;
+
+}
+
+.top-section .features-block, .about-block {
+ 	display: inline-block;
+	width: 49.5%;
+	padding-bottom: 30px;
+	padding-right: 20px;
+}
+
+
+.bottom-section .services-block, .product-block, .vision-block {
+	display: inline-block;
+	width: 33%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+.address-section {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.address-section p {
+	padding-top: 10px;
+}
+
+
+.image-section img{
+	width: 100%;
+}
+
+footer {
+	display: block;
+	width: 100%;
+}
+
+footer p {
+	padding: 20px;
+	text-align: center;
+}
