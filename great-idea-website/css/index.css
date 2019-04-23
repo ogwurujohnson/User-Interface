@@ -94,7 +94,10 @@ header .logo {
 }
 
 .main-section {
-	margin: auto;
+	width: 80%;
+	margin: 0px auto;
+	/* margin-right: calc(80%-10%); */
+	/* border: 1px solid red; */
 }
 
 .introduction-section {
@@ -106,7 +109,7 @@ header .logo {
 	display: inline-block;
 	width: 50%;
 	font-weight: 400px;
-	padding-left: 250px;
+	/* padding-left: 250px; */
 	padding-top: 50px;
 }
 
@@ -116,7 +119,7 @@ header .logo {
 }
 
  .introduction-section .caption-image img{
-	width: 65%;
+	
 	padding-top: 20px;
 } 
 
@@ -125,6 +128,7 @@ header .logo {
 	vertical-align: top;
 	width: 40%;
 	padding-top: 40px;
+	text-align: center;
 }
 
 .introduction-section .caption button {
@@ -135,11 +139,12 @@ header .logo {
 
 .top-section {
 	margin-top: 70px;
-	margin-left: 20%;
+	/* margin-left: 20%; */
 	margin-right: 10%;
 	padding-top:30px;
-	padding-right:10px;
+	/*padding-right:10px; */
 	border-top: 1px solid black;
+	width: 100%;
 
 }
 
@@ -154,7 +159,7 @@ header .logo {
 .bottom-section .services-block, .product-block, .vision-block {
 	display: inline-block;
 	width: 33%;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 30px;
 }
@@ -162,6 +167,7 @@ header .logo {
 .address-section {
 	padding-top: 30px;
 	padding-bottom: 50px;
+	border-top: 1px solid black;
 }
 
 .address-section p {
