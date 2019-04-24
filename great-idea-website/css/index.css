@@ -107,6 +107,7 @@ header .logo {
 	width: 50%;
 	font-weight: 400px;
 	padding-top: 50px;
+	text-align: center;
 }
 
 .introduction-section .caption h1{
@@ -129,7 +130,6 @@ header .logo {
 
 .introduction-section .caption button {
 	border: 1px solid black;
-	margin-left: 200px;
 	padding: 10px;
 }
 
