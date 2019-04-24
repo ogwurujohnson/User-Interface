@@ -95,8 +95,6 @@ header .logo {
 .main-section {
 	width: 80%;
 	margin: 0px auto;
-	/* margin-right: calc(80%-10%); */
-	/* border: 1px solid red; */
 }
 
 .introduction-section {
@@ -108,7 +106,6 @@ header .logo {
 	display: inline-block;
 	width: 50%;
 	font-weight: 400px;
-	/* padding-left: 250px; */
 	padding-top: 50px;
 }
 
@@ -138,10 +135,8 @@ header .logo {
 
 .top-section {
 	margin-top: 70px;
-	/* margin-left: 20%; */
 	margin-right: 10%;
 	padding-top:30px;
-	/*padding-right:10px; */
 	border-top: 1px solid black;
 	width: 100%;
 
